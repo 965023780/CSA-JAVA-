@@ -3,6 +3,7 @@ package genericity;
 import java.util.ArrayList;
 import java.util.List;
 
+// 通配符的上限
 public class T6 {
 
     public static void printAll(List<? extends Number> lists) {

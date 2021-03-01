@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Modifier;
 import java.rmi.StubNotFoundException;
-
+//反射获得类的方法
 public class T2 {
 
     public static void printMethod(Method[] methods) {

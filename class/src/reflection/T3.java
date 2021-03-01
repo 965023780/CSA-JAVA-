@@ -4,6 +4,7 @@ import javax.management.monitor.Monitor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
+//反射获得类的属性
 public class T3 {
 
     public static void printAll(Field[] fields,Object object) throws IllegalAccessException {

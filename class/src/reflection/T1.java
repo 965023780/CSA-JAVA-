@@ -4,7 +4,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Modifier;
 import java.rmi.StubNotFoundException;
-
+//反射获得构造函数
 public class T1 {
 
     public static void printConstructor(Constructor[] constructors){

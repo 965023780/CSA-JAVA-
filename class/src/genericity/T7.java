@@ -3,6 +3,7 @@ package genericity;
 import java.util.ArrayList;
 import java.util.List;
 
+//通配符的下限
 public class T7 {
 
     public static class Grandfather {

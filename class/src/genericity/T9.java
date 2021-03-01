@@ -1,7 +1,7 @@
 package genericity;
 
 import java.util.ArrayList;
-
+//泛型擦除的经典范例
 public class T9 {
 
     public static void main(String args[]) {

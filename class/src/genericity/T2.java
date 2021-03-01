@@ -2,6 +2,7 @@ package genericity;
 
 import java.lang.reflect.ParameterizedType;
 
+//这是一个泛型方法
 public class T2 {
 
     public static <T> void show(T msg) {

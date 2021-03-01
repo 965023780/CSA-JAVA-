@@ -2,6 +2,7 @@ package genericity;
 
 import java.util.List;
 
+//通配符？的使用
 public class T5 extends T3 {
 
     //不优雅的写法

@@ -1,7 +1,7 @@
 package genericity;
 
 import java.util.List;
-
+//通配符和泛型的区别
 public class T8 {
 
     public static <T> void printAll2(List<T> lists, T t) {

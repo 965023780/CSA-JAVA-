@@ -1,5 +1,6 @@
 package genericity;
 
+//这是一个泛型类
 public class T1<T> {
     T bean;
 

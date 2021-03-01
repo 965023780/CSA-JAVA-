@@ -1,5 +1,5 @@
 package reflection;
-
+//被反射的类
 public class Student {
 
     public String name="test";
