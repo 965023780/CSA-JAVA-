@@ -1,6 +1,7 @@
 package reflection;
 
 import javax.management.monitor.Monitor;
+import java.lang.reflect.Array;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
@@ -13,7 +14,14 @@ public class T3 {
             System.out.print(" "+field.getType());
             System.out.print(" "+field.getName());
             //field.setAccessible(true);
-            System.out.println(" "+field.get(object));
+            /*if(field.getType().isArray()) {
+                for (int i = 0; i < Array.getLength(field.get(object)); i++) {
+                    System.out.print(" " + Array.get(field.get(object),i));
+                }
+                System.out.println();
+            }else {*/
+                System.out.println(" " + field.get(object));
+           // }
         }
     }
 

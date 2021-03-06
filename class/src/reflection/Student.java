@@ -3,6 +3,7 @@ package reflection;
 public class Student {
 
     public String name="test";
+    public String friendsName[]= new String[]{"a","b","c","d"};
     public boolean gender=false;
     private int age=Integer.MAX_VALUE;
     private double score=Double.MIN_VALUE;
